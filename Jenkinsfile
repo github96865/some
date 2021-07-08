@@ -1,6 +1,7 @@
 pipeline
 {
 agent any
+options { retry(3) }
 stages
 {
 stage('clone')
